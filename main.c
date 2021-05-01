@@ -189,7 +189,7 @@ int main(void)
                             saved = current;
                         }
                         int32_t sub = saved.pres - current.pres;
-                        print(sub, UNIT_PA);
+                        print(-sub, UNIT_PA);
                         print(sub * 8.7f, UNIT_CM);
                         break;
                     default:
